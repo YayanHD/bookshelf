@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Cormorant+SC:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, input, button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+input, button {
+    font-size: 16px;
+}
+
+.head_bar {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Cormorant SC', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+.input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 30px;
+    background: #A3A6FF;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.input_section > h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.input_section >form > .input {
+    margin: 40px 0;
+}
+
+.input_section > form > button {
+    background-color: rgb(0, 89, 255);
+    border: none;
+    border-radius: 30px;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: 'Comic Neue', cursive;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.input_section > form > button > span {
+    font-weight: bold;
+}
+
+.input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+.input_section > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.input_section > form > .input_inline > label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Comic Neue', cursive;
+    font-size: 17px;
+}
+
+.search_section {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border: none;
+    border-radius: 30px;
+    background: #A3A6FF;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.search_section > h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+}
+
+.search_section > form {
+    width: 100%;  
+}
+
+
+.search_section > form > input {
+    padding: 15px;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    margin: 15px 0px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.search_section > form > button {
+    background-color: rgb(0, 89, 255);
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 20%;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.book_shelf {
+    margin: 16px 0 0 0;
+    border: none;
+    padding: 16px;
+    border-radius: 30px;
+    background: #A3A6FF;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.book_shelf > h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+}
+
+.book_shelf > .book_list {
+    padding: 16px;
+
+}
+
+
+.book_shelf > .book_list > .book_item {
+    padding: 8px 16px 16px 16px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0;
+    background-color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+    margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .green {
+    background-color: darkgreen;
+    color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .red {
+    background-color: darkred;
+    color: white;
+}
+
+footer {
+    background-color: #A3A6FF;
+    padding: 30px 0;
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:365px){
+    .head_bar__title{
+        font-size: 30px;
+        
+    }
+
+    .input_section h2{
+        font-size: 25px;
+    }
+   
+    main {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 16px;
+    
+    }
+    .search_section > h2 {
+        font-size: 25px;
+    }
+
+    .book_shelf h2{
+        font-size: 25px;
+    }
+
+    footer h3{
+        font-size : 18px
+    }
+}
